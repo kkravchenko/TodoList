@@ -5,7 +5,12 @@
     "mocha": true,
     "jest": true
   },
-  "extends": ["airbnb", "prettier", "@wemake-services/javascript"],
+  "extends": [
+    "airbnb",
+    "prettier",
+    "@wemake-services/typescript/recommended",
+    "@wemake-services/javascript"
+  ],
   "globals": {
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly",
